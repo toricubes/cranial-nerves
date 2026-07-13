@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./normalize.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js" integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao=" crossorigin="anonymous"></script>
+    <script src="./mixitup.min.js"></script>
+    <script src="./mixitup-multifilter.min.js"></script>
+    
+</head>
+<body>
+    <!-- <button id="go">GO</button> -->
+    <div class="controls">
+        <button type="button" data-filter="all">All</button>
+        <button type="button"  data-filter="[data-type='sensory']">Sensory Nerves</button>
+        <button type="button" data-filter="[data-type='motor']">Motor Nerves</button>
+        <button type="Sensory Motor Nerves" data-filter="[data-type='sensory motor']">Sensory Motor Nerves</button>
+    </div>
+    <div class="copy text">
+        <p>Hover for locations</p>
+    </div>
+    <div id="card-grid" class="container"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
